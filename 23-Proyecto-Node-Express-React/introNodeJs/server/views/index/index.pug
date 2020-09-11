@@ -1,0 +1,31 @@
+extends ../layout/index
+block slayer
+    .slider
+        h1 Rio de Janeiro
+        em aventura
+
+block contenido
+    main.container.mt-5 
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5
+            .col-md-6
+                p Lorem ipsum dolor sit amet consectetur adipiscing elit vel fringilla, ut etiam purus eros congue duis vehicula rhoncus, facilisi pulvinar augue condimentum consequat urna netus nec. Fames himenaeos curabitur turpis cras curae ad orci, dui aenean aliquam ullamcorper purus magna, porttitor fringilla iaculis consequat parturient diam. Fermentum nunc facilisis nisi feugiat vestibulum mus potenti, purus laoreet nisl magna auctor orci et, turpis massa sociis imperdiet tempor enim.
+
+                p Venenatis et nascetur sagittis cum fringilla blandit, suscipit ornare risus rhoncus quisque maecenas inceptos, mattis imperdiet neque varius sapien. Dui facilisis nam dis vivamus praesent tincidunt ad inceptos, metus himenaeos cum ultrices lacus lacinia condimentum, mollis aliquet viverra fermentum torquent suspendisse leo. Primis per nullam non molestie lobortis vitae id hendrerit himenaeos integer nisl fusce netus, eu phasellus mollis cum accumsan aliquet tellus imperdiet fringilla sociis mi mus, commodo auctor facilisis pharetra lacus euismod pulvinar sodales sagittis class dictumst parturient.
+
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="alt", class="img-fluid")
+
+        h2.text-center.mb-5 Proximos Viajes
+        include ../layout/partials/viajes
+    .descuento
+        .container
+            .row
+                .col-md-6
+                    h3 5% de Descuento
+                    p.titulo Viaja a Canada
+                    p.precio $2,500 USD
+
+    .container
+        h2.text-center.mb-5 Testimoniales
+            include ../layout/partials/testimoniales
