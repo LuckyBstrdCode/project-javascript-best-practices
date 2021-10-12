@@ -10,7 +10,7 @@
   "author": "Juan De la torre",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^7.1.0",
+    "electron": "^11.5.0",
     "electron-builder": "^22.1.0"
   }
 }
